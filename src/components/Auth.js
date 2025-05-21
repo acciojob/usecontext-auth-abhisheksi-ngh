@@ -7,7 +7,7 @@ const Auth =()=>{
     return (
         <div>
             <h1>Click on the checkbox to get authenticated</h1>
-            <p>{isAuth?'You are now authenticated, you can proceed' : 'you are not authenticated'}</p>
+            <p>{isAuth?'You are now authenticated, you can proceed' : 'You are not authenticated'}</p>
             <label>
                 <input type="checkbox" 
              checked={isAuth}
